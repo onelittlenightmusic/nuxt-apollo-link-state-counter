@@ -1,0 +1,50 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add graphql @types/graphql apollo-client apollo-link-state graphql-tag --save
+
+PATH: 
+  /home/hiro/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/ProgramData/Oracle/Java/javapath_target_681255453:/mnt/c/Windows/System32:/mnt/c/Windows:/mnt/c/Windows/System32/wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Program Files/Anaconda3:/mnt/c/Program Files/Anaconda3/Scripts:/mnt/c/Program Files/Anaconda3/Library/bin:/mnt/c/texlive/2017/bin/win32:/mnt/c/Program Files/Git/cmd:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Users/hiroy/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/hiroy/AppData/Local/atom/bin:/mnt/c/Users/hiroy/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/Docker Toolbox:/mnt/c/Users/hiroy/Documents/k8s:/snap/bin:/home/hiro/.local/bin
+
+Yarn version: 
+  1.12.3
+
+Node version: 
+  11.2.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile '/home/hiro/.cache/yarn/v4/npm-source-map-resolve-0.5.2-72e2cc34095543e43b2c62b2c4c10d4a9054f259/node_modules/source-map-resolve/test/source-map-resolve.js' -> '/mnt/c/Users/hiroy/Documents/vue/nuxt-graphql/node_modules/source-map-resolve/test/source-map-resolve.js'
+
+npm manifest: 
+  {
+    "name": "nuxt-graphql",
+    "version": "1.0.0",
+    "description": "Nuxt.js project",
+    "author": "Hiroyuki Osaki <hiroyuki.osaki@gmail.com>",
+    "private": true,
+    "scripts": {
+      "dev": "nuxt",
+      "build": "nuxt build",
+      "start": "nuxt start",
+      "generate": "nuxt generate",
+      "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+      "precommit": "npm run lint"
+    },
+    "dependencies": {
+      "nuxt": "^2.0.0"
+    },
+    "devDependencies": {
+      "babel-eslint": "^10.0.1",
+      "eslint": "^4.19.1",
+      "eslint-friendly-formatter": "^4.0.1",
+      "eslint-loader": "^2.1.1",
+      "eslint-plugin-vue": "^4.0.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

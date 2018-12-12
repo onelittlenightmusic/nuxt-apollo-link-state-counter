@@ -1,0 +1,31 @@
+{
+  "name": "nuxt-graphql",
+  "version": "1.0.0",
+  "description": "Nuxt.js project",
+  "author": "Hiroyuki Osaki <hiroyuki.osaki@gmail.com>",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "@nuxtjs/apollo": "^4.0.0-rc2.3",
+    "@types/graphql": "^14.0.3",
+    "apollo-client": "^2.4.7",
+    "apollo-link-state": "^0.4.2",
+    "graphql": "^14.0.2",
+    "graphql-tag": "^2.10.0",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^4.19.1",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-vue": "^4.0.0"
+  }
+}
