@@ -2,6 +2,10 @@
 
 > Nuxt.js project
 
+## Live demo
+
+https://condescending-perlman-13e781.netlify.com/
+
 ## Build Setup
 
 ``` bash
